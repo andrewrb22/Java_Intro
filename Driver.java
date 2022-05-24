@@ -42,6 +42,9 @@ System.out.print("Thank you\n!");
 System.out.print("\nHere is your paycheck!\n\n\n\n");
 System.out.print("---------------------------------------------\n\n\n");
 System.out.println("Employee's Name: " + fullname);
+System.out.println("\nEmployee's Number: " + empnumber);
+System.out.println("\nHourly rate of pay: " + rate);
+
 
 
 System.out.println("Nice to meet you " + fullname + "\nYou are " + age + " year old");
