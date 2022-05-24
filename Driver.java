@@ -20,14 +20,14 @@ System.out.println(x + " * 2 = " + d);
 //System.out.println(2 +  "" + 3 + "Something" );
 String fullname ;
 String empnumber ;
-float hours = 2.5f;
-float rate = 2.5f;
-float total;
-total = (float)rate * (float)hours;
+int hours;
+int rate;
+double total;
+total = (int)rate * (int)hours;
 double tax;
-tax = (float)total * 0.06;
+tax = (double)total * 0.06;
 double net;
-net = (float)total - (double)tax;
+net = (double)total - (double)tax;
 
 System.out.print("Enter the Employee's full name: ");
 fullname = myScan.nextLine();
@@ -36,8 +36,9 @@ System.out.print("Enter the Employee's ID number: ");
 empnumber = myScan.nextLine();
 
 System.out.print("Enter pay rate per hour: ");
-rate = myScan.nextInt();
+rate = (int) myScan.nextDouble();
 myScan = new Scanner(System.in)
+
 ;
 System.out.print("Enter the reagular hours worked: ");
 hours = myScan.nextInt();
@@ -51,10 +52,10 @@ System.out.println("Employee's Name: " + fullname);
 System.out.println("\nEmployee's Number: " + empnumber);
 System.out.println("\nHourly rate of pay: " + rate);
 System.out.println("\nHours Worked: " + hours);
-System.out.println("\n\nTotal Gross Pay: " + total);
-System.out.println("\n\nDeductions\nTax(%6): " + tax);
-System.out.println("\n\nNet Pay: " + net);
+System.out.println("\n\nTotal Gross Pay: $" + total);
+System.out.println("\n\nDeductions\nTax(%6): $" + tax);
+System.out.println("\n\nNet Pay: $" + net + " Dollars");
 
-System.out.print("Goodbye!");
+System.out.print("-------------------------------------------");
 }
 }
