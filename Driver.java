@@ -18,16 +18,27 @@ System.out.println(x + " * 2 = " + d);
 // x = y = z = 7;
 //System.out.println(2%7%5);
 //System.out.println(2 +  "" + 3 + "Something" );
-String name ;
-int age;
-System.out.print("Enter your age : ");
-age = myScan.nextInt();
+String fullname ;
+String empnumber ;
+int hours;
+int rate;
+
+System.out.print("Enter the Employee's full name: ");
+fullname = myScan.nextLine();
+
+System.out.print("Enter the Employee's ID number: ");
+empnumber = myScan.nextLine();
+
+System.out.print("Enter pay rate per hour: ");
+rate = myScan.nextInt();
 myScan = new Scanner(System.in)
 ;
-System.out.print("Enter your name: ");
-name = myScan.nextLine();
-//name = myScan.next();
-System.out.println("Nice to meet you " + name + "\nYou are " + age + " year old");
+System.out.print("Enter pay rate per hour: ");
+rate = myScan.nextInt();
+myScan = new Scanner(System.in)
+;
+
+System.out.println("Nice to meet you " + fullname + "\nYou are " + age + " year old");
 System.out.print("Goodbye!");
 }
 }
