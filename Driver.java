@@ -20,8 +20,8 @@ System.out.println(x + " * 2 = " + d);
 //System.out.println(2 +  "" + 3 + "Something" );
 String fullname ;
 String empnumber ;
-int hours;
-int rate;
+float hours = 2.5f;
+float rate = 2.5f;
 
 System.out.print("Enter the Employee's full name: ");
 fullname = myScan.nextLine();
@@ -33,10 +33,16 @@ System.out.print("Enter pay rate per hour: ");
 rate = myScan.nextInt();
 myScan = new Scanner(System.in)
 ;
-System.out.print("Enter pay rate per hour: ");
-rate = myScan.nextInt();
+System.out.print("Enter the reagular hours worked: ");
+hours = myScan.nextInt();
 myScan = new Scanner(System.in)
 ;
+
+System.out.print("Thank you\n!");
+System.out.print("\nHere is your paycheck!\n\n\n\n");
+System.out.print("---------------------------------------------\n\n\n");
+System.out.println("Employee's Name: " + fullname);
+
 
 System.out.println("Nice to meet you " + fullname + "\nYou are " + age + " year old");
 System.out.print("Goodbye!");
