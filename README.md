@@ -1,1 +1,2 @@
-# Java_Intro
+# COP3330 - Java - HW1
+## In Java, Implement a simple weekly payroll program. The input will consist of the employee’s full name, employee’s ID (a string), the number of hours worked (a real number), the hourly rate (a real number), the income tax is 6%. Your program should calculate the total gross pay, and the net pay and display a paycheck. 

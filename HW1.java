@@ -50,7 +50,7 @@ System.out.println("\nTotal Gross Pay: $" + total);
 System.out.println("Deductions\nTax(%6): $" + tax);
 System.out.println("Net Pay: $" + net + " Dollars");
 
-System.out.print("-------------------------------------------");
+System.out.print("-------------------------------------------\n");
 myScan.close();
 }
 }
